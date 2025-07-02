@@ -1,18 +1,25 @@
 {
   "name": "vedpiler",
   "version": "1.0.0",
+  "description": "Babel plugin to transform direct Zustand state mutations like store.count++ or store.name = 'Ved' into safe store.set(...) updates.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords":  ["babel-plugin", "zustand", "state-management"],
+  "keywords": [
+    "vedpiler",
+    "babel-plugin",
+    "zustand",
+    "state-management",
+    "compiler",
+    "reactivity"
+  ],
   "author": "Ved Pawar",
   "license": "MIT",
-  "type": "module",
-  "description": "Babel plugin to transform direct Zustand state mutations like store.count++ or store.name = 'Ved' into safe store.set(...) updates.",
-  "dependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.7",
-    "@babel/preset-env": "^7.27.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedpawar2254/vedpiler"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
   }
 }
+
+
