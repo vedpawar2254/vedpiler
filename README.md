@@ -1,5 +1,7 @@
 # Vedpiler
 
+## built for learning purposes
+
 **Vedpiler** is a Babel plugin that automatically transforms direct state mutations in Zustand into safe, functional updates that keep your store reactive.
 
 ---
